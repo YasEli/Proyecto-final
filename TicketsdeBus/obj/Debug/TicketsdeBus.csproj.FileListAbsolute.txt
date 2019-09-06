@@ -1,0 +1,41 @@
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.exe.config
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.exe
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.pdb
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.csprojResolveAssemblyReference.cache
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form1.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Properties.Resources.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.csproj.GenerateResource.Cache
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.exe
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.pdb
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form2.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form3.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form4.resources
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.exe.config
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.exe
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.pdb
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.exe
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.pdb
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.csprojResolveAssemblyReference.cache
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form1.resources
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form2.resources
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form3.resources
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form4.resources
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Properties.Resources.resources
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.csproj.GenerateResource.Cache
+C:\Users\ana-m\Desktop\Proyecto-Tickets-de-bus-master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form5.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.exe.config
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.exe
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.pdb
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.exe
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\bin\Debug\TicketsdeBus.pdb
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.csprojResolveAssemblyReference.cache
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form1.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form2.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form3.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form4.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form5.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form6.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Properties.Resources.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus master\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.csproj.GenerateResource.Cache
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form5.resources
+C:\Users\Yasmin Coto\Desktop\Tickets de bus\TicketsdeBus\TicketsdeBus\obj\Debug\TicketsdeBus.Form6.resources
