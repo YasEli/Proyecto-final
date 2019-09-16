@@ -12,9 +12,10 @@ namespace TicketsdeBus.Modelos
     {
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
+
         public int ClienteId { get; set; }
         public Cliente Cliente { get; set; }
-        public string Asiento { get; set; }
+   
 
         public double Subtotal { get; set; }
         public double Impuesto { get; set; }
@@ -57,13 +58,15 @@ namespace TicketsdeBus.Modelos
 
         public class TicketDetalle
         {
-            
+            public int Id { get; set; }
+
             public int ViajeId { get; set; }
             public Viaje Viaje { get; set; }
+
             public int Cantidad { get; set; }
             public double Precio { get; set; }
             public double Total { get; set; }
-            public string Asiento { get; set; }
+
 
 
         public TicketDetalle()

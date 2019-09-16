@@ -73,3 +73,4 @@ C:\Users\Yasmin Coto\Desktop\Yasmin\Proyecto L2\Proyecto-final\TicketsdeBus\bin\
 C:\Users\Yasmin Coto\Desktop\Yasmin\Proyecto L2\Proyecto-final\TicketsdeBus\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\Yasmin Coto\Desktop\Yasmin\Proyecto L2\Proyecto-final\TicketsdeBus\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Yasmin Coto\Desktop\Yasmin\Proyecto L2\Proyecto-final\TicketsdeBus\bin\Debug\stdole.dll
+C:\Users\Yasmin Coto\Desktop\Yasmin\Proyecto L2\Proyecto-final\TicketsdeBus\obj\Debug\TicketsdeBus.Form8.resources

@@ -17,7 +17,6 @@ namespace TicketsdeBus
         ViajesBL _viajesBL;
         ClientesBL _clientesBL;
         TicketsBL _ticketsBL;
-        AsientosBL _asientoBL;
         UsuariosBL _usuariosBL;
 
         public Form1()
@@ -28,7 +27,6 @@ namespace TicketsdeBus
             _viajesBL = new ViajesBL();
             _clientesBL = new ClientesBL();
             _ticketsBL = new TicketsBL();
-            _asientoBL = new AsientosBL();
             _usuariosBL = new UsuariosBL();
 
 
@@ -78,9 +76,7 @@ namespace TicketsdeBus
         {
             var formTicket = new Form5();
             formTicket.MdiParent = this;
-            formTicket.CargarDatos(_ticketsBL, _clientesBL, _viajesBL, _asientoBL);
-            
-
+            formTicket.CargarDatos(_ticketsBL, _clientesBL, _viajesBL);
             formTicket.Show();
         }
 
@@ -116,6 +112,14 @@ namespace TicketsdeBus
             formReporteViajes.CargarDatos(_viajesBL);
             formReporteViajes.MdiParent = this;
             formReporteViajes.Show();
+        }
+
+        private void reporteDeVentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReporteVentas = new Form8();
+            formReporteVentas.CargarDatos(_ticketsBL, _clientesBL);
+            formReporteVentas.MdiParent = this;
+            formReporteVentas.Show();
         }
     }
 }

@@ -15,8 +15,6 @@ namespace TicketsdeBus.BL
         public TicketsBL()
         {
             ListaDeTickets = new BindingList<Ticket>();
-
-
         }
 
 
