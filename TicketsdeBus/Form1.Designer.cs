@@ -38,6 +38,7 @@
             this.ticketToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteDeVentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteDeViajesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,14 +106,15 @@
             // ticketToolStripMenuItem1
             // 
             this.ticketToolStripMenuItem1.Name = "ticketToolStripMenuItem1";
-            this.ticketToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.ticketToolStripMenuItem1.Size = new System.Drawing.Size(106, 22);
             this.ticketToolStripMenuItem1.Text = "Ticket";
             this.ticketToolStripMenuItem1.Click += new System.EventHandler(this.ticketToolStripMenuItem1_Click);
             // 
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.reporteDeVentaToolStripMenuItem});
+            this.reporteDeVentaToolStripMenuItem,
+            this.reporteDeViajesToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -120,8 +122,15 @@
             // reporteDeVentaToolStripMenuItem
             // 
             this.reporteDeVentaToolStripMenuItem.Name = "reporteDeVentaToolStripMenuItem";
-            this.reporteDeVentaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.reporteDeVentaToolStripMenuItem.Text = "Reporte deVenta";
+            this.reporteDeVentaToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.reporteDeVentaToolStripMenuItem.Text = "Reporte de Venta";
+            // 
+            // reporteDeViajesToolStripMenuItem
+            // 
+            this.reporteDeViajesToolStripMenuItem.Name = "reporteDeViajesToolStripMenuItem";
+            this.reporteDeViajesToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.reporteDeViajesToolStripMenuItem.Text = "Reporte de Viajes";
+            this.reporteDeViajesToolStripMenuItem.Click += new System.EventHandler(this.reporteDeViajesToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -154,6 +163,7 @@
         private System.Windows.Forms.ToolStripMenuItem ticketToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteDeVentaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteDeViajesToolStripMenuItem;
     }
 }
 

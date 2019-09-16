@@ -17,6 +17,7 @@ namespace TicketsdeBus.Modelos
         public bool PuedeVerClientes { get; set; }
         public bool PuedeVerTickets { get; set; }
         public bool ReporteVentas { get; set; }
+        public bool ReporteViajes { get; set; }
 
         public Usuario(int id, string nombre, string contrasena)
         {

@@ -36,6 +36,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.listadeViajesBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.listadeViajesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -59,15 +60,14 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.listadeViajesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             destinoLabel = new System.Windows.Forms.Label();
             idLabel = new System.Windows.Forms.Label();
             origenLabel = new System.Windows.Forms.Label();
             precioLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.listadeViajesBindingNavigator)).BeginInit();
             this.listadeViajesBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listadeViajesDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listadeViajesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeViajesDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // destinoLabel
@@ -144,6 +144,11 @@
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorAddNewItem.Text = "Agregar nuevo";
+            // 
+            // listadeViajesBindingSource
+            // 
+            this.listadeViajesBindingSource.AllowNew = true;
+            this.listadeViajesBindingSource.DataSource = typeof(TicketsdeBus.Modelos.Viaje);
             // 
             // bindingNavigatorCountItem
             // 
@@ -235,7 +240,7 @@
             this.destinoTextBox.Location = new System.Drawing.Point(64, 124);
             this.destinoTextBox.Name = "destinoTextBox";
             this.destinoTextBox.Size = new System.Drawing.Size(200, 20);
-            this.destinoTextBox.TabIndex = 2;
+            this.destinoTextBox.TabIndex = 3;
             // 
             // idTextBox
             // 
@@ -243,7 +248,7 @@
             this.idTextBox.Location = new System.Drawing.Point(64, 58);
             this.idTextBox.Name = "idTextBox";
             this.idTextBox.Size = new System.Drawing.Size(200, 20);
-            this.idTextBox.TabIndex = 6;
+            this.idTextBox.TabIndex = 1;
             // 
             // origenTextBox
             // 
@@ -251,7 +256,7 @@
             this.origenTextBox.Location = new System.Drawing.Point(64, 92);
             this.origenTextBox.Name = "origenTextBox";
             this.origenTextBox.Size = new System.Drawing.Size(200, 20);
-            this.origenTextBox.TabIndex = 8;
+            this.origenTextBox.TabIndex = 2;
             // 
             // precioTextBox
             // 
@@ -259,7 +264,7 @@
             this.precioTextBox.Location = new System.Drawing.Point(64, 158);
             this.precioTextBox.Name = "precioTextBox";
             this.precioTextBox.Size = new System.Drawing.Size(200, 20);
-            this.precioTextBox.TabIndex = 10;
+            this.precioTextBox.TabIndex = 4;
             // 
             // label1
             // 
@@ -276,7 +281,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(64, 194);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 12;
+            this.dateTimePicker1.TabIndex = 5;
             // 
             // listadeViajesDataGridView
             // 
@@ -324,11 +329,6 @@
             this.dataGridViewTextBoxColumn5.HeaderText = "Precio";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             // 
-            // listadeViajesBindingSource
-            // 
-            this.listadeViajesBindingSource.AllowNew = true;
-            this.listadeViajesBindingSource.DataSource = typeof(TicketsdeBus.Modelos.Viaje);
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -351,8 +351,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.listadeViajesBindingNavigator)).EndInit();
             this.listadeViajesBindingNavigator.ResumeLayout(false);
             this.listadeViajesBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listadeViajesDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listadeViajesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeViajesDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

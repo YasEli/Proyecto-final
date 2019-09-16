@@ -62,7 +62,6 @@
             this.listadeBusesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ticketsDetalleBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ticketsDetalleDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -299,7 +298,7 @@
             this.fechaDateTimePicker.Location = new System.Drawing.Point(70, 85);
             this.fechaDateTimePicker.Name = "fechaDateTimePicker";
             this.fechaDateTimePicker.Size = new System.Drawing.Size(200, 20);
-            this.fechaDateTimePicker.TabIndex = 6;
+            this.fechaDateTimePicker.TabIndex = 3;
             // 
             // idTextBox
             // 
@@ -307,7 +306,7 @@
             this.idTextBox.Location = new System.Drawing.Point(70, 33);
             this.idTextBox.Name = "idTextBox";
             this.idTextBox.Size = new System.Drawing.Size(200, 20);
-            this.idTextBox.TabIndex = 8;
+            this.idTextBox.TabIndex = 1;
             // 
             // impuestoTextBox
             // 
@@ -355,7 +354,6 @@
             this.ticketsDetalleDataGridView.AutoGenerateColumns = false;
             this.ticketsDetalleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ticketsDetalleDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
@@ -367,12 +365,6 @@
             this.ticketsDetalleDataGridView.Size = new System.Drawing.Size(647, 151);
             this.ticketsDetalleDataGridView.TabIndex = 15;
             this.ticketsDetalleDataGridView.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.ticketsDetalleDataGridView_CellEndEdit);
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Id";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Id";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -427,7 +419,7 @@
             this.comboBox1.Location = new System.Drawing.Point(70, 58);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 16;
+            this.comboBox1.TabIndex = 2;
             this.comboBox1.ValueMember = "Id";
             // 
             // asientosBLBindingSource

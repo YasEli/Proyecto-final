@@ -26,6 +26,7 @@ namespace TicketsdeBus.BL
             usuarioAdmin.PuedeVerClientes = true;
             usuarioAdmin.PuedeVerTickets = true;
             usuarioAdmin.ReporteVentas = true;
+            usuarioAdmin.ReporteViajes = true;
 
             var usuario1 = new Usuario(2, "ana", "1997");
             usuario1.PuedeVerBuses = true;

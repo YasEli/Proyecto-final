@@ -257,7 +257,7 @@
             this.capacidadTextBox.Location = new System.Drawing.Point(104, 155);
             this.capacidadTextBox.Name = "capacidadTextBox";
             this.capacidadTextBox.Size = new System.Drawing.Size(100, 20);
-            this.capacidadTextBox.TabIndex = 2;
+            this.capacidadTextBox.TabIndex = 5;
             // 
             // idTextBox
             // 
@@ -265,7 +265,7 @@
             this.idTextBox.Location = new System.Drawing.Point(104, 44);
             this.idTextBox.Name = "idTextBox";
             this.idTextBox.Size = new System.Drawing.Size(100, 20);
-            this.idTextBox.TabIndex = 4;
+            this.idTextBox.TabIndex = 1;
             // 
             // marcaTextBox
             // 
@@ -273,7 +273,7 @@
             this.marcaTextBox.Location = new System.Drawing.Point(104, 70);
             this.marcaTextBox.Name = "marcaTextBox";
             this.marcaTextBox.Size = new System.Drawing.Size(100, 20);
-            this.marcaTextBox.TabIndex = 6;
+            this.marcaTextBox.TabIndex = 2;
             // 
             // modeloTextBox
             // 
@@ -281,7 +281,7 @@
             this.modeloTextBox.Location = new System.Drawing.Point(104, 96);
             this.modeloTextBox.Name = "modeloTextBox";
             this.modeloTextBox.Size = new System.Drawing.Size(100, 20);
-            this.modeloTextBox.TabIndex = 8;
+            this.modeloTextBox.TabIndex = 3;
             // 
             // rutaTextBox
             // 
@@ -289,7 +289,7 @@
             this.rutaTextBox.Location = new System.Drawing.Point(104, 126);
             this.rutaTextBox.Name = "rutaTextBox";
             this.rutaTextBox.Size = new System.Drawing.Size(100, 20);
-            this.rutaTextBox.TabIndex = 10;
+            this.rutaTextBox.TabIndex = 4;
             // 
             // label1
             // 
@@ -309,7 +309,7 @@
             this.comboBox1.Location = new System.Drawing.Point(104, 209);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 12;
+            this.comboBox1.TabIndex = 7;
             this.comboBox1.ValueMember = "Id";
             // 
             // listadeViajesBindingSource
@@ -392,7 +392,7 @@
             this.comboBox2.Location = new System.Drawing.Point(104, 182);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(100, 21);
-            this.comboBox2.TabIndex = 15;
+            this.comboBox2.TabIndex = 6;
             this.comboBox2.ValueMember = "Id";
             // 
             // Form2

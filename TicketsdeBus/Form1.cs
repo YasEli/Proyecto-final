@@ -102,11 +102,20 @@ namespace TicketsdeBus
             clientesToolStripMenuItem.Visible = formLogin.UsuarioAutenticado.PuedeVerClientes;
             ticketToolStripMenuItem1.Visible = formLogin.UsuarioAutenticado.PuedeVerTickets;
             reporteDeVentaToolStripMenuItem.Visible = formLogin.UsuarioAutenticado.ReporteVentas;
+            reporteDeViajesToolStripMenuItem.Visible = formLogin.UsuarioAutenticado.ReporteViajes;
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void reporteDeViajesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReporteViajes = new Form7();
+            formReporteViajes.CargarDatos(_viajesBL);
+            formReporteViajes.MdiParent = this;
+            formReporteViajes.Show();
         }
     }
 }

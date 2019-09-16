@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             System.Windows.Forms.Label apellidoLabel;
             System.Windows.Forms.Label idLabel;
             System.Windows.Forms.Label nombreLabel;
             System.Windows.Forms.Label telefonoLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.listadeClientesBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.listadeClientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -56,16 +57,51 @@
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.listadeClientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             apellidoLabel = new System.Windows.Forms.Label();
             idLabel = new System.Windows.Forms.Label();
             nombreLabel = new System.Windows.Forms.Label();
             telefonoLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.listadeClientesBindingNavigator)).BeginInit();
             this.listadeClientesBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listadeClientesDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listadeClientesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeClientesDataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // apellidoLabel
+            // 
+            apellidoLabel.AutoSize = true;
+            apellidoLabel.Location = new System.Drawing.Point(12, 113);
+            apellidoLabel.Name = "apellidoLabel";
+            apellidoLabel.Size = new System.Drawing.Size(47, 13);
+            apellidoLabel.TabIndex = 2;
+            apellidoLabel.Text = "Apellido:";
+            // 
+            // idLabel
+            // 
+            idLabel.AutoSize = true;
+            idLabel.Location = new System.Drawing.Point(12, 55);
+            idLabel.Name = "idLabel";
+            idLabel.Size = new System.Drawing.Size(19, 13);
+            idLabel.TabIndex = 4;
+            idLabel.Text = "Id:";
+            // 
+            // nombreLabel
+            // 
+            nombreLabel.AutoSize = true;
+            nombreLabel.Location = new System.Drawing.Point(12, 83);
+            nombreLabel.Name = "nombreLabel";
+            nombreLabel.Size = new System.Drawing.Size(47, 13);
+            nombreLabel.TabIndex = 6;
+            nombreLabel.Text = "Nombre:";
+            // 
+            // telefonoLabel
+            // 
+            telefonoLabel.AutoSize = true;
+            telefonoLabel.Location = new System.Drawing.Point(12, 147);
+            telefonoLabel.Name = "telefonoLabel";
+            telefonoLabel.Size = new System.Drawing.Size(52, 13);
+            telefonoLabel.TabIndex = 8;
+            telefonoLabel.Text = "Telefono:";
             // 
             // listadeClientesBindingNavigator
             // 
@@ -105,6 +141,11 @@
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorAddNewItem.Text = "Agregar nuevo";
+            // 
+            // listadeClientesBindingSource
+            // 
+            this.listadeClientesBindingSource.AllowNew = true;
+            this.listadeClientesBindingSource.DataSource = typeof(TicketsdeBus.Modelos.Cliente);
             // 
             // bindingNavigatorCountItem
             // 
@@ -190,15 +231,6 @@
             this.listadeClientesBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
             this.listadeClientesBindingNavigatorSaveItem.Text = "Guardar datos";
             // 
-            // apellidoLabel
-            // 
-            apellidoLabel.AutoSize = true;
-            apellidoLabel.Location = new System.Drawing.Point(12, 113);
-            apellidoLabel.Name = "apellidoLabel";
-            apellidoLabel.Size = new System.Drawing.Size(47, 13);
-            apellidoLabel.TabIndex = 2;
-            apellidoLabel.Text = "Apellido:";
-            // 
             // apellidoTextBox
             // 
             this.apellidoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listadeClientesBindingSource, "Apellido", true));
@@ -207,31 +239,13 @@
             this.apellidoTextBox.Size = new System.Drawing.Size(100, 20);
             this.apellidoTextBox.TabIndex = 3;
             // 
-            // idLabel
-            // 
-            idLabel.AutoSize = true;
-            idLabel.Location = new System.Drawing.Point(12, 55);
-            idLabel.Name = "idLabel";
-            idLabel.Size = new System.Drawing.Size(19, 13);
-            idLabel.TabIndex = 4;
-            idLabel.Text = "Id:";
-            // 
             // idTextBox
             // 
             this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listadeClientesBindingSource, "Id", true));
             this.idTextBox.Location = new System.Drawing.Point(70, 52);
             this.idTextBox.Name = "idTextBox";
             this.idTextBox.Size = new System.Drawing.Size(100, 20);
-            this.idTextBox.TabIndex = 5;
-            // 
-            // nombreLabel
-            // 
-            nombreLabel.AutoSize = true;
-            nombreLabel.Location = new System.Drawing.Point(12, 83);
-            nombreLabel.Name = "nombreLabel";
-            nombreLabel.Size = new System.Drawing.Size(47, 13);
-            nombreLabel.TabIndex = 6;
-            nombreLabel.Text = "Nombre:";
+            this.idTextBox.TabIndex = 1;
             // 
             // nombreTextBox
             // 
@@ -239,16 +253,7 @@
             this.nombreTextBox.Location = new System.Drawing.Point(70, 80);
             this.nombreTextBox.Name = "nombreTextBox";
             this.nombreTextBox.Size = new System.Drawing.Size(100, 20);
-            this.nombreTextBox.TabIndex = 7;
-            // 
-            // telefonoLabel
-            // 
-            telefonoLabel.AutoSize = true;
-            telefonoLabel.Location = new System.Drawing.Point(12, 147);
-            telefonoLabel.Name = "telefonoLabel";
-            telefonoLabel.Size = new System.Drawing.Size(52, 13);
-            telefonoLabel.TabIndex = 8;
-            telefonoLabel.Text = "Telefono:";
+            this.nombreTextBox.TabIndex = 2;
             // 
             // telefonoTextBox
             // 
@@ -256,7 +261,7 @@
             this.telefonoTextBox.Location = new System.Drawing.Point(70, 144);
             this.telefonoTextBox.Name = "telefonoTextBox";
             this.telefonoTextBox.Size = new System.Drawing.Size(100, 20);
-            this.telefonoTextBox.TabIndex = 9;
+            this.telefonoTextBox.TabIndex = 4;
             // 
             // listadeClientesDataGridView
             // 
@@ -297,11 +302,6 @@
             this.dataGridViewTextBoxColumn4.HeaderText = "Telefono";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
-            // listadeClientesBindingSource
-            // 
-            this.listadeClientesBindingSource.AllowNew = true;
-            this.listadeClientesBindingSource.DataSource = typeof(TicketsdeBus.Modelos.Cliente);
-            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -322,8 +322,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.listadeClientesBindingNavigator)).EndInit();
             this.listadeClientesBindingNavigator.ResumeLayout(false);
             this.listadeClientesBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listadeClientesDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listadeClientesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeClientesDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
