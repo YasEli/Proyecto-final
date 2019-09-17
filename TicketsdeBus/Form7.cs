@@ -21,7 +21,17 @@ namespace TicketsdeBus
         public void CargarDatos(ViajesBL viajesBL)
         {
             var bindingSource = new BindingSource();
-            bindingSource.DataSource = viajesBL.ListadeViajes;
+            bindingSource.DataSource =
+                from p in viajesBL.ListadeViajes
+                select new
+                {
+                    Foto = p.Foto,
+                    Id = p.Id,
+                    Fecha = p.Fecha,
+                    Origen = p.Origen,
+                    Destino = p.Destino,
+                    Precio = p.Precio
+                };
 
             var reporteViajes = new ReportedeViajes();
             reporteViajes.SetDataSource(bindingSource);

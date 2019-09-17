@@ -15,6 +15,7 @@ namespace TicketsdeBus.Modelos
         public string Marca { get; set; }
         public int ViajeId { get; set; }
         public Viaje Viaje { get; set; }
+        public byte[] Foto { get; set; }
         public Bus()
         {
             DateTime fecha1 = new DateTime(2019, 08, 20, 10, 00, 00);

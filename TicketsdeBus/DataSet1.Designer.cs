@@ -324,6 +324,8 @@ namespace TicketsdeBus {
             
             private global::System.Data.DataColumn columnPrecio;
             
+            private global::System.Data.DataColumn columnFoto;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public ViajesDataTable() {
@@ -399,6 +401,14 @@ namespace TicketsdeBus {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn FotoColumn {
+                get {
+                    return this.columnFoto;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -434,14 +444,15 @@ namespace TicketsdeBus {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ViajesRow AddViajesRow(int ID, System.DateTime Fecha, string Origen, string Destino, double Precio) {
+            public ViajesRow AddViajesRow(int ID, System.DateTime Fecha, string Origen, string Destino, double Precio, byte[] Foto) {
                 ViajesRow rowViajesRow = ((ViajesRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         ID,
                         Fecha,
                         Origen,
                         Destino,
-                        Precio};
+                        Precio,
+                        Foto};
                 rowViajesRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowViajesRow);
                 return rowViajesRow;
@@ -469,6 +480,7 @@ namespace TicketsdeBus {
                 this.columnOrigen = base.Columns["Origen"];
                 this.columnDestino = base.Columns["Destino"];
                 this.columnPrecio = base.Columns["Precio"];
+                this.columnFoto = base.Columns["Foto"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -484,6 +496,8 @@ namespace TicketsdeBus {
                 base.Columns.Add(this.columnDestino);
                 this.columnPrecio = new global::System.Data.DataColumn("Precio", typeof(double), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnPrecio);
+                this.columnFoto = new global::System.Data.DataColumn("Foto", typeof(byte[]), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFoto);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1023,6 +1037,22 @@ namespace TicketsdeBus {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public byte[] Foto {
+                get {
+                    try {
+                        return ((byte[])(this[this.tableViajes.FotoColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Foto\' de la tabla \'Viajes\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableViajes.FotoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsIDNull() {
                 return this.IsNull(this.tableViajes.IDColumn);
             }
@@ -1079,6 +1109,18 @@ namespace TicketsdeBus {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetPrecioNull() {
                 this[this.tableViajes.PrecioColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsFotoNull() {
+                return this.IsNull(this.tableViajes.FotoColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetFotoNull() {
+                this[this.tableViajes.FotoColumn] = global::System.Convert.DBNull;
             }
         }
         

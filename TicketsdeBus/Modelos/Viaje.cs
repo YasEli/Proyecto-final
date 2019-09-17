@@ -13,7 +13,7 @@ namespace TicketsdeBus.Modelos
         public string Origen { get; set; }
         public string Destino { get; set; }
         public double Precio { get; set; }
-      
+        public byte[] Foto { get; set; }
         public Viaje()
         {
 

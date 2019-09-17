@@ -377,7 +377,7 @@
             this.viajeIdDataGridViewTextBoxColumn.DataPropertyName = "ViajeId";
             this.viajeIdDataGridViewTextBoxColumn.DataSource = this.listadeViajesBindingSource;
             this.viajeIdDataGridViewTextBoxColumn.DisplayMember = "Destino";
-            this.viajeIdDataGridViewTextBoxColumn.HeaderText = "Viaje";
+            this.viajeIdDataGridViewTextBoxColumn.HeaderText = "Viaje (Destino)";
             this.viajeIdDataGridViewTextBoxColumn.Name = "viajeIdDataGridViewTextBoxColumn";
             this.viajeIdDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.viajeIdDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
